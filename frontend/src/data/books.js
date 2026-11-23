@@ -1,0 +1,103 @@
+// src/data/books.js
+// Catalog of books for PageTurner Bookstore (including literature, tech, and manga)
+
+export const BOOKS = [
+  {
+    id: 1,
+    title: "The Stranger",
+    author: "Albert Camus",
+    category: "Classic",
+    price: 1200,
+    cover: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 2,
+    title: "Atomic Habits",
+    author: "James Clear",
+    category: "Self-Improvement",
+    price: 1800,
+    cover: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 3,
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    category: "Computer Science",
+    price: 3500,
+    cover: "https://images.unsplash.com/photo-1532012164546-f432f2e3edd4?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 4,
+    title: "One Piece, Vol. 1: Romance Dawn",
+    author: "Eiichiro Oda",
+    category: "Manga",
+    price: 950,
+    cover: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 5,
+    title: "1984",
+    author: "George Orwell",
+    category: "Classic",
+    price: 1400,
+    cover: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 6,
+    title: "One Piece, Vol. 100: Haoshoku",
+    author: "Eiichiro Oda",
+    category: "Manga",
+    price: 950,
+    cover: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 7,
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    category: "Literature",
+    price: 1300,
+    cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 8,
+    title: "Designing Data-Intensive Applications",
+    author: "Martin Kleppmann",
+    category: "Computer Science",
+    price: 4200,
+    cover: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 9,
+    title: "The Pragmatic Programmer",
+    author: "David Thomas & Andrew Hunt",
+    category: "Computer Science",
+    price: 3800,
+    cover: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 10,
+    title: "Man's Search for Meaning",
+    author: "Viktor E. Frankl",
+    category: "Philosophy",
+    price: 1600,
+    cover: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    id: 11,
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    category: "Literature",
+    price: 1250,
+    cover: "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=500&q=80"
+  }
+];
+
+export const CATEGORIES = [
+  "All",
+  "Classic",
+  "Computer Science",
+  "Literature",
+  "Manga",
+  "Philosophy",
+  "Self-Improvement"
+];
